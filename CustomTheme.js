@@ -10,9 +10,13 @@ const customTheme = {
     primary: '#007AFF', // Primary color
     accent: '#FF5722', // Accent color
     background: '#F5F5F5', // Background color
+    backdrop: '#F5F5F5', // backdrop color
     surface: '#FFFFFF', // Surface color
+    onSurface: '#FFFFFF', // onSurface color
     text: '#333333', // Text color
     error: '#FF0000', // Error color
+    disabled: '#FF0000',
+
     // Customize other colors as needed
   },
 
