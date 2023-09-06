@@ -6,18 +6,21 @@ const customTheme = {
 
   // Customize the colors
   colors: {
-    ...DefaultTheme.colors,
-    primary: '#007AFF', // Primary color
-    accent: '#FF5722', // Accent color
-    background: '#F5F5F5', // Background color
-    backdrop: '#F5F5F5', // backdrop color
-    surface: '#FFFFFF', // Surface color
-    onSurface: '#FFFFFF', // onSurface color
-    text: '#333333', // Text color
-    error: '#FF0000', // Error color
-    disabled: '#FF0000',
-
-    // Customize other colors as needed
+    primary: Color.primary,
+    onPrimaryContainer: Color.light,
+    primaryContainer: Color.primary,
+    secondaryContainer: Color.primary,
+    outline: Color.primary,
+    onPrimary: Color.light,
+    accent: Color.tertiary,
+    backdrop: Color.tertiary,
+    background: Color.tertiary,
+    text: Color.light,
+    placeholder: Color.light,
+    onSurface: Color.light,
+    onSurfaceVariant: Color.light,
+    disabled: Color.light,
+    surface: Color.tertiary,
   },
 
   // Typography
